@@ -1,0 +1,118 @@
+"C:\Users\qienq\PycharmProjects\Project 4\venv\Scripts\python.exe" "C:\Users\qienq\PycharmProjects\Project 4\p2run.py"
+2020-12-10 18:57:20.337146: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
+2020-12-10 18:57:20.337497: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2020-12-10 18:57:22.860033: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2020-12-10 18:57:22.860340: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-10 18:57:22.864063: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: QQ-Desktop
+2020-12-10 18:57:22.864348: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: QQ-Desktop
+2020-12-10 18:57:22.864862: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-10 18:57:22.874546: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x1f251aba030 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-10 18:57:22.874953: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Fig1.jpg : airplane
+WARNING:tensorflow:From C:\Users\qienq\PycharmProjects\Project 4\p2run.py:36: Sequential.predict_classes (from tensorflow.python.keras.engine.sequential) is deprecated and will be removed after 2021-01-01.
+Instructions for updating:
+Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model does multi-class classification   (e.g. if it uses a `softmax` last-layer activation).* `(model.predict(x) > 0.5).astype("int32")`,   if your model does binary classification   (e.g. if it uses a `sigmoid` last-layer activation).
+0  -  airplane
+Time used: 0.23488402366638184 seconds
+match! :)
+
+Fig2.jpg : airplane
+0  -  airplane
+Time used: 0.04188680648803711 seconds
+match! :)
+
+Fig3.jpg : automobile
+1  -  automobile
+Time used: 0.03990340232849121 seconds
+match! :)
+
+Fig4.jpg : dog
+5  -  dog
+Time used: 0.03990340232849121 seconds
+match! :)
+
+Fig5.jpg : dog
+5  -  dog
+Time used: 0.050375938415527344 seconds
+match! :)
+
+Fig6.jpg : bird
+2  -  bird
+Time used: 0.04188942909240723 seconds
+match! :)
+
+Fig7.jpg : bird
+2  -  bird
+Time used: 0.0359036922454834 seconds
+match! :)
+
+Fig8.jpg : cat
+3  -  cat
+Time used: 0.04140114784240723 seconds
+match! :)
+
+Fig9.jpg : cat
+3  -  cat
+Time used: 0.09724307060241699 seconds
+match! :)
+
+Fig10.jpg : deer
+4  -  deer
+Time used: 0.03690147399902344 seconds
+match! :)
+
+Fig11.jpg : deer
+4  -  deer
+Time used: 0.04788541793823242 seconds
+match! :)
+
+Fig12.jpg : horse
+4  -  deer
+Time used: 0.0329134464263916 seconds
+did not match :(
+
+Fig13.jpg : horse
+7  -  horse
+Time used: 0.0388944149017334 seconds
+match! :)
+
+Fig14.jpg : frog
+6  -  frog
+Time used: 0.044882774353027344 seconds
+match! :)
+
+Fig15.jpg : frog
+6  -  frog
+Time used: 0.04787111282348633 seconds
+match! :)
+
+Fig16.jpg : ship
+8  -  ship
+Time used: 0.03789854049682617 seconds
+match! :)
+
+Fig17.jpg : ship
+8  -  ship
+Time used: 0.042887210845947266 seconds
+match! :)
+
+Fig18.jpg : truck
+8  -  ship
+Time used: 0.04388308525085449 seconds
+did not match :(
+
+Fig19.jpg : truck
+9  -  truck
+Time used: 0.05483746528625488 seconds
+match! :)
+
+Fig20.jpg : automobile
+1  -  automobile
+Time used: 0.0648200511932373 seconds
+match! :)
+
+Detected 18 images correctly out of a total of 20
+Outliers were  ['Fig12.jpg', 'Fig18.jpg']
+
+Process finished with exit code 0
